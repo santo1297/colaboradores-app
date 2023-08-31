@@ -1,0 +1,107 @@
+/* styles.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ebebeb;
+  color: #333;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.app-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.content-container {
+  display: flex;
+  align-items: flex-start;
+  max-width: 1200px;
+  width: 100%;
+  margin: 2rem;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Estilos para el Listado */
+.listado-container {
+  flex: 1;
+  margin-right: 2rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.table th,
+.table td {
+  padding: 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Estilos para el Formulario */
+.formulario-container {
+  flex: 1;
+}
+
+.formulario {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background-color: #f9f9f9;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Estilos para la Alerta */
+.alert {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.alert-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+.alert-success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
